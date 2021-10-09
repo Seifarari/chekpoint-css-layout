@@ -127,72 +127,18 @@
   }
 
   @media only screen and (min-width: 544px) {
-    #hs-feedback-ui.hs-feedback-csat:not(.hs-feedback-top):not(.hs-feedback-expanded) {
-      width: 450px;
-    }
   }
-
-  #hs-feedback-ui.hs-feedback-csat.hs-feedback-extended-width:not(.hs-feedback-top) {
-    width: 550px !important;
-  }
-
-  #hs-feedback-ui.preview.hs-feedback-csat.hs-feedback-callout:not(.hs-feedback-expanded):not(.hs-feedback-top) {
-    width: 450px !important;
-  }
-
   @media only screen and (max-width: 768px) {
-    #hs-feedback-ui:not(.preview):not(.hs-feedback-callout):not(.hs-feedback-top),
-    #hs-feedback-ui.hs-feedback-expanded:not(.preview):not(.hs-feedback-top) {
-      width: 100% !important;
-    }
   }
 
-  @media only screen and (max-width: 600px) {
-    #hs-feedback-ui.preview:not(.hs-feedback-top),
-    #hs-feedback-ui.hs-feedback-expanded.preview:not(.hs-feedback-top) {
-      width: 100% !important;
-    }
-  }
-
-  #hs-feedback-ui.hs-feedback-shown ~ #tally-widget-container,
-  #hs-feedback-ui.hs-feedback-shown ~ #wootric-modal {
-    display: none !important;
+  @media only screen and (max-width: 600px) {  
   }
 
   @media only screen and (min-width: 544px) {
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown ~ #hubspot-messages-iframe-container,
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown ~ .leadinModal-theme-bottom-right-corner,
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown  ~ .leadinModal-theme-bottom-left-corner,
-    #hs-feedback-ui.hs-feedback-top.hs-feedback-shown   ~ .leadinModal-theme-top {
-      display: none !important;
     }
-  }
-
   @media only screen and (min-width: 544px) and (max-width: 970px) {
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown  ~ .leadinModal-theme-bottom-right-corner,
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown ~ .leadinModal-theme-bottom-left-corner {
-      display: none !important;
-    }
   }
-
   @media only screen and (max-width: 966px) {
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown ~ #hubspot-messages-iframe-container {
-      display: none !important;
-    }
   }
-
-  @media only screen and (max-width: 544px) {
-
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown:not(.hs-feedback-no-mobile) ~ #hubspot-messages-iframe-container,
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown:not(.hs-feedback-no-mobile)  ~ #hubspot-messages-iframe-container,
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown:not(.hs-feedback-no-mobile) ~ .leadinModal-theme-bottom-right-corner,
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown:not(.hs-feedback-no-mobile)  ~ .leadinModal-theme-bottom-left-corner,
-    #hs-feedback-ui.hs-feedback-top.hs-feedback-shown:not(.hs-feedback-no-mobile)   ~ .leadinModal-theme-top,
-    #hs-feedback-ui.hs-feedback-left.hs-feedback-shown:not(.hs-feedback-no-mobile)  ~ .leadinModal-theme-bottom-right-corner,
-    #hs-feedback-ui.hs-feedback-right.hs-feedback-shown:not(.hs-feedback-no-mobile) ~ .leadinModal-theme-bottom-left-corner {
-      display: none !important;
-    }
-    #hs-feedback-ui.hs-feedback-no-mobile {
-      display: none;
-    }
+  @media only screen and (max-width: 544px{
   }
